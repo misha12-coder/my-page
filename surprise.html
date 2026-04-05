@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Iqra - Bestie's Surprise</title>
+    <style>
+        @import url('https://googleapis.com');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background: #fff0f6; 
+            color: #444;
+            overflow-y: auto; /* Is se scrolling enable hogi */
+            overflow-x: hidden;
+        }
+
+        /* Sections Styling */
+        section {
+            min-height: 100vh; /* Har section screen ki poori height lega */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 { font-family: 'Pacifico', cursive; color: #ff3399; font-size: clamp(2.5rem, 8vw, 4.5rem); margin-bottom: 20px; }
+        h2 { font-family: 'Pacifico', cursive; color: #e91e63; font-size: 2.5rem; margin-bottom: 30px; }
+        p { font-size: 1.2rem; max-width: 600px; line-height: 1.6; margin-bottom: 15px; }
+
+        /* Different Colors for Different Portions */
+        .hero { background: linear-gradient(180deg, #ffdeeb 0%, #fff0f6 100%); }
+        .wishes-1 { background: #ffffff; border-top: 5px dashed #ffb3d9; }
+        .bestie-zone { background: #fff9db; border-top: 5px dashed #ffd43b; }
+        .wishes-2 { background: #e3f2fd; border-top: 5px dashed #90caf9; }
+
+        .cartoon-large { font-size: 100px; animation: bounce 2s infinite; margin-bottom: 20px; }
+        .bestie-emoji { font-size: 120px; margin: 20px 0; }
+
+        .wish-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin: 15px;
+            border-left: 8px solid #ff3399;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        /* Floating Background Emojis */
+        .floating { 
+            position: absolute; 
+            font-size: 30px; 
+            z-index: 0; 
+            opacity: 0.5; 
+            animation: floatUp 10s linear infinite; 
+        }
+
+        @keyframes floatUp {
+            0% { transform: translateY(100%) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.5; }
+            90% { opacity: 0.5; }
+            100% { transform: translateY(-1000%) rotate(360deg); opacity: 0; }
+        }
+
+        @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+        
+        .scroll-hint { font-weight: bold; color: #ff3399; margin-top: 20px; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Hero -->
+    <section class="hero">
+        <div class="cartoon-large">👸</div>
+        <h1>Happy Birthday, Iqra!</h1>
+        <p>Aapki birthday ke liye ek chota sa surprise... ✨</p>
+        <p class="scroll-hint">Niche scroll karein (Scroll Down) ↓</p>
+    </section>
+
+    <!-- Section 2: Sweet Wishes -->
+    <section class="wishes-1">
+        <h2>Birthday Wishes 🌸</h2>
+        <div class="wish-card">
+            <p>Iqra, Allah aapko hamesha aise hi muskurata rakhay jaisay aap aaj hain! 🎂</p>
+        </div>
+        <div class="wish-card">
+            <p>May your year be as wonderful and bright as your soul. 🌟</p>
+        </div>
+        <p>Abhi aur bhi hai... Scroll karein! ↓</p>
+    </section>
+
+    <!-- Section 3: Best Friends Zone -->
+    <section class="bestie-zone">
+        <h2>Besties Forever 👯‍♀️</h2>
+        <div class="bestie-emoji">👩‍❤️‍👩</div>
+        <p><b>To my Bestie Iqra:</b></p>
+        <p>Humari dosti sab se hat kar hai. Shukkriya meri life mein honay ka! 🦋✨</p>
+        <div class="wish-card" style="border-color: #ffd43b;">
+            <p>"Partners in crime forever! 🍕💖"</p>
+        </div>
+    </section>
+
+    <!-- Section 4: Final Blessing -->
+    <section class="wishes-2">
+        <div class="cartoon-large">🎁</div>
+        <h2>Duaon Ka Tohfa ✨</h2>
+        <div class="wish-card">
+            <p>Salgirah Mubarak! May this year bring you endless happiness. Ameen. 🤲✨</p>
+        </div>
+        <p><b>Iqra's Special Day 2024</b></p>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
